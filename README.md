@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📊 Sales Intelligence Platform
 
 > **An Interactive Machine Learning Dashboard for Sales Prediction and Business Analytics**
@@ -272,6 +271,5 @@ This project is licensed under the MIT License.
 ---
 
 ## Thank You ❤️
-=======
-# horizontechx_tasks_Sales_Prediction
->>>>>>> f6ab99e4a60416555d60143d23fb03231679708a
+
+
