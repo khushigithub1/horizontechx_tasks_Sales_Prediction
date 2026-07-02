@@ -33,6 +33,10 @@ def update_theme(fig):
 
     fig.update_layout(
 
+        autosize=True,
+
+        height=400,
+
         paper_bgcolor="#161b22",
 
         plot_bgcolor="#161b22",
@@ -43,10 +47,10 @@ def update_theme(fig):
         ),
 
         margin=dict(
-            l=30,
+            l=20,
             r=20,
             t=40,
-            b=30
+            b=20
         ),
 
         title_x=0.5,

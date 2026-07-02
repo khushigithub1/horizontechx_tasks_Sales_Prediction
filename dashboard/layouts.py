@@ -63,6 +63,8 @@ def create_sidebar():
 
     return html.Div(
 
+        id = "sidebar",
+
         className="sidebar",
 
         children=[
@@ -117,6 +119,14 @@ def create_header():
 
         children=[
 
+            # Hamburger Button (Only visible on mobile)
+            html.Button(
+                "☰",
+                id="menu-btn",
+                className="menu-btn"
+            ),
+
+            # Left Side
             html.Div(
 
                 children=[
@@ -124,25 +134,21 @@ def create_header():
                     html.H1("📊 Sales Intelligence Dashboard"),
 
                     html.P(
-
                         "Advertising Sales Prediction using Machine Learning"
-
                     )
 
                 ]
 
             ),
 
+            # Right Side
             html.Div(
 
                 children=[
 
                     html.Div(
-
                         id="live-clock",
-
                         className="clock"
-
                     ),
 
                     html.Br(),
@@ -153,6 +159,7 @@ def create_header():
                             html.P("Random Forest | Plotly Dash")
                         ]
                     )
+
                 ]
 
             )
@@ -326,7 +333,15 @@ def chart_card(title, figure):
 
                 figure=figure,
 
-                config={"displayModeBar": False}
+                config={
+                     "displayModeBar": False,
+                     "responsive": True
+                    },
+
+                 style={
+                      "width": "100%",
+                      "height": "350px"
+                     }
 
             )
 

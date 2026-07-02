@@ -1270,6 +1270,108 @@ padding:20px;
 
 }
 
+/* ===========================
+   MOBILE RESPONSIVE SIDEBAR
+=========================== */
 
+.menu-btn{
+    display:none;
+}
 
-   
+@media screen and (max-width:768px){
+
+    /* Show Hamburger Button */
+    .menu-btn{
+        display:block;
+        position:fixed;
+        top:15px;
+        left:15px;
+
+        width:45px;
+        height:45px;
+
+        border:none;
+        border-radius:10px;
+
+        background:#1f2937;
+        color:white;
+
+        font-size:24px;
+
+        cursor:pointer;
+
+        z-index:9999;
+    }
+
+    /* Hide Sidebar */
+    #sidebar{
+
+        position:fixed;
+
+        left:-260px;
+
+        top:0;
+
+        width:250px;
+
+        height:100vh;
+
+        transition:.35s ease;
+
+        z-index:9998;
+    }
+
+    /* Sidebar opens */
+    #sidebar.active{
+
+        left:0;
+
+    }
+
+    /* Main content takes full width */
+    .content{
+
+        margin-left:0 !important;
+
+        width:100% !important;
+
+        padding-left:20px;
+        padding-right:20px;
+
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    /* Analytics */
+    .chart-grid{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+        margin-top:20px;
+    }
+
+    .chart-card{
+        width:100%;
+        padding:12px;
+        overflow:hidden;
+    }
+
+    .chart-card h4{
+        font-size:16px;
+        text-align:center;
+        margin-bottom:10px;
+    }
+
+    /* Plotly Graph */
+    .js-plotly-plot,
+    .plot-container,
+    .svg-container{
+        width:100% !important;
+    }
+
+    .dash-graph{
+        width:100% !important;
+    }
+}

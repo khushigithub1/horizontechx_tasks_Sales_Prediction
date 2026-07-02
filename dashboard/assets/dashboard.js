@@ -224,3 +224,22 @@ window.addEventListener("load", () => {
     }, 1000);
 
 });
+
+
+// =========================
+// Mobile Sidebar Toggle
+// =========================
+
+document.addEventListener("click", function (e) {
+
+    if (e.target.id === "menu-btn") {
+
+        const sidebar = document.getElementById("sidebar");
+
+        if (sidebar) {
+            sidebar.classList.toggle("active");
+        }
+
+    }
+
+});
