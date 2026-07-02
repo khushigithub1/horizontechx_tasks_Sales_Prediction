@@ -1,7 +1,7 @@
 # 📊 Sales Intelligence Platform
 
-> **An Interactive Machine Learning Dashboard for Sales Prediction and Business Analytics**
-
+> 🚀 A Machine Learning-powered web application built with Dash & Plotly to predict product sales, visualize advertising performance, generate business insights, and download prediction reports.
+> 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Dash](https://img.shields.io/badge/Dash-4.3.0-008DE4?logo=plotly)
 ![Plotly](https://img.shields.io/badge/Plotly-6.8.0-3F4F75?logo=plotly)
@@ -9,6 +9,14 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+## 🌐 Live Demo
+
+🚀 **Try the application here**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://horizontechx-tasks-sales-prediction.onrender.com)
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction)
+----
 
 # 🚀 Overview
 
@@ -25,6 +33,45 @@ The application enables users to:
 This project demonstrates the complete workflow of a Data Science application—from data analysis and model development to deployment through a professional dashboard.
 
 ---
+
+# 📸 Dashboard Preview
+
+## 🏠 Sales Intelligence Dashboard
+
+The main dashboard provides KPI cards, advertising analytics, and interactive visualizations for business decision-making.
+
+![Sales Dashboard](screenshots/adver%20sale%20dashboard.png)
+
+---
+
+## 🤖 Live Sales Prediction
+
+Users can adjust TV, Radio, and Newspaper advertisement budgets using interactive sliders. The Random Forest model instantly predicts expected sales.
+
+**Features**
+- 🎯 Live Prediction
+- 📊 Dynamic Gauge Chart
+- 🎚 Interactive Sliders
+- ⚡ Instant Results
+
+![Live Prediction](screenshots/live%20prediction.png)
+
+---
+
+## 💡 Business Insights & Reports
+
+The dashboard automatically generates marketing recommendations based on predicted sales and allows users to download reports.
+
+**Features**
+- 📈 Business Insights
+- 💡 Marketing Recommendations
+- 📥 Report Download
+- 📊 Decision Support
+
+![Business Insights](screenshots/insight%20and%20report.png)
+
+---
+
 
 # ✨ Features
 
@@ -112,18 +159,6 @@ Sales_Prediction/
 
 ---
 
-# 📊 Dashboard Preview
-
-## Home Dashboard
-
-> Add your dashboard screenshot here.
-
-```
-screenshots/dashboard.png
-```
-
----
-
 ## Analytics
 
 Interactive visualizations include:
@@ -183,7 +218,7 @@ The dashboard intelligently generates recommendations such as:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Sales_Prediction.git
+git clone https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction.git
 ```
 
 ## Move into Project
