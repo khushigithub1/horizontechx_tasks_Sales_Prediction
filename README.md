@@ -9,6 +9,16 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+🌐 Live Demo
+🚀 Explore the Live Dashboard
+
+🔗 Live Application:
+https://horizontechx-tasks-sales-prediction.onrender.com
+
+💻 GitHub Repository:
+https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction
+
+----
 
 # 🚀 Overview
 
