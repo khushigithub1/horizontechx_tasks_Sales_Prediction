@@ -1,7 +1,7 @@
 # 📊 Sales Intelligence Platform
 
-> **An Interactive Machine Learning Dashboard for Sales Prediction and Business Analytics**
-
+> 🚀 A Machine Learning-powered web application built with Dash & Plotly to predict product sales, visualize advertising performance, generate business insights, and download prediction reports.
+> 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Dash](https://img.shields.io/badge/Dash-4.3.0-008DE4?logo=plotly)
 ![Plotly](https://img.shields.io/badge/Plotly-6.8.0-3F4F75?logo=plotly)
@@ -9,6 +9,31 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+## 🌐 Live Demo
+
+🚀 **Try the application here**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://horizontechx-tasks-sales-prediction.onrender.com)
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction)
+----
+
+# 🚀 Overview
+
+The **Sales Intelligence Platform** is a modern, interactive dashboard that predicts product sales using **Machine Learning** while providing insightful visual analytics for advertising performance.
+
+The application enables users to:
+
+- 📈 Analyze advertising expenditure
+- 🤖 Predict future sales using a trained Random Forest model
+- 📊 Visualize business insights with interactive charts
+- 🎯 Evaluate advertising effectiveness
+- 📥 Download prediction reports
+
+This project demonstrates the complete workflow of a Data Science application—from data analysis and model development to deployment through a professional dashboard.
+
+---
+
 # 📸 Dashboard Preview
 
 ## 🏠 Sales Intelligence Dashboard
@@ -47,34 +72,6 @@ The dashboard automatically generates marketing recommendations based on predict
 
 ---
 
-
----
-🌐 Live Demo
-🚀 Explore the Live Dashboard
-
-🔗 Live Application:
-https://horizontechx-tasks-sales-prediction.onrender.com
-
-💻 GitHub Repository:
-https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction
-
-----
-
-# 🚀 Overview
-
-The **Sales Intelligence Platform** is a modern, interactive dashboard that predicts product sales using **Machine Learning** while providing insightful visual analytics for advertising performance.
-
-The application enables users to:
-
-- 📈 Analyze advertising expenditure
-- 🤖 Predict future sales using a trained Random Forest model
-- 📊 Visualize business insights with interactive charts
-- 🎯 Evaluate advertising effectiveness
-- 📥 Download prediction reports
-
-This project demonstrates the complete workflow of a Data Science application—from data analysis and model development to deployment through a professional dashboard.
-
----
 
 # ✨ Features
 
@@ -162,18 +159,6 @@ Sales_Prediction/
 
 ---
 
-# 📊 Dashboard Preview
-
-## Home Dashboard
-
-> Add your dashboard screenshot here.
-
-```
-screenshots/dashboard.png
-```
-
----
-
 ## Analytics
 
 Interactive visualizations include:
@@ -233,7 +218,7 @@ The dashboard intelligently generates recommendations such as:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Sales_Prediction.git
+git clone https://github.com/khushigithub1/horizontechx_tasks_Sales_Prediction.git
 ```
 
 ## Move into Project
